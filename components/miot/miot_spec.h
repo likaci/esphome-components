@@ -285,6 +285,10 @@ enum MIID : uint16_t {
   //   0x06: long press
   MIID_BUTTON_EVENT = 0x1001,
 
+  MIID_BUTTON_EVENT_PTX_CLICK = 0x4A0C,
+  MIID_BUTTON_EVENT_PTX_DOUBLE_CLICK = 0x4A0D,
+  MIID_BUTTON_EVENT_PTX_LONG_PRESS = 0x4A0E,
+
   /// General attributes.
 
   // Sleep.
